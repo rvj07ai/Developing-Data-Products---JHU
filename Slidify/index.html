@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Developing Data Products - Shiny App Course Project</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Developing Data Products - Shiny App Course Project">
+  <meta name="author" content="Ravijeet">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Developing Data Products - Shiny App Course Project</h1>
+    <h2></h2>
+    <p>Ravijeet<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Welcome to the Developing data products project</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Steps to Run the App :
+1) Download the files ui.r ,server.r , and packages.r files from the Developing-Data-Products- folder and save it to your local machine, keep all the files in same folder. Please ansure you have R Studio installed on your system
+2) Set the working directory as where you have saved the ui.r and server.r file. Run the packages.r file 
+3) Then Run the Shiny App by running this command : shiny::runApp(&#39;path of directory&#39;) or clicking the RUN command in the editor</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Introduction to the app :</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This Shiny App does descriptive analysis and basically has three fucntions : </p>
+
+<ul>
+<li>Display the data of the data sets selected by the USER &amp; </li>
+<li>Histogram distribution of the dataset selected based on variable selected </li>
+<li>Summary output of the entire dataset<br></li>
+</ul>
+
+<p>--- .class #id </p>
+
+<h2>Run the App and select the dataset of your choice</h2>
+
+<ul>
+<li>Firstly, run the app as explained on 2nd Slide</li>
+<li><p>Secondly, select the dataset : either MTCARS or Faithful dataset </p>
+
+<p>MTCARS dataset was extracted from the 1974 Motor Trend US magazine, and comprises fuel 
+consumption and 10 aspects of automobile design and performance for 32 automobiles</p>
+
+<p>Faithful dataset has  272 observations on 2 variables.
+1) eruptions     numeric     Eruption time in mins
+2) waiting     numeric     Waiting time to next eruption (in mins)</p></li>
+</ul>
+
+<p>--- .class #id </p>
+
+<h2>Explore the Data Set under the Data View Panel</h2>
+
+<pre><code>- Now, you can scroll the dataset with n-number of observation in a view to see the trend 
+- You can change the no. of observation you want to view 
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Witness the descriptive analysis of dataset</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>After you have seen the data , you can visualize the data by clicking on the Data Distribition 
+   tab Item </li>
+<li>Here, you can select the variable of the dataset you selected to see the data pattern with 
+  help of histogram</li>
+<li>Also, you are free to select the number of bins by use of slider to get a more clear picture</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Summary Table</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The App also has a feature to display the summary of the entire data set to help you understand the
+dataset so that you get a first look of variables maximum , minimum , mean and median values which can 
+be helpful or further analysis </li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Welcome to the Developing data products project'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Introduction to the app :'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Witness the descriptive analysis of dataset'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Summary Table'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
